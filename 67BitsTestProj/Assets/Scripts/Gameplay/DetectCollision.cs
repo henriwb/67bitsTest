@@ -14,7 +14,7 @@ public class DetectCollision : MonoBehaviour
         if (other != null)
         {
             OnDetectedCollision?.Invoke(other.gameObject);
-            Debug.Log("COLLISION" + other.gameObject.name);
+            //Debug.Log("COLLISION" + other.gameObject.name);
         }
     }
 }

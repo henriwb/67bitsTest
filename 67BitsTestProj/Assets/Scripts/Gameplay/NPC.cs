@@ -21,7 +21,7 @@ public class NPC : MonoBehaviour
     {
         if(who.GetComponent<Punch>() != null)
         {
-            Debug.Log("ACERTOU PUNCH");
+            //Debug.Log("ACERTOU PUNCH");
             gameObject.SetActive(false);
         }
 
