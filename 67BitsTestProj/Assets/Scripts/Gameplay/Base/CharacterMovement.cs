@@ -8,8 +8,20 @@ public abstract class CharacterMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public GameObject playerModel;
 
+    private bool PauseMove = false;
+
+    public void PauseMovement(bool set)
+    {
+        PauseMove = set; 
+    }
+
     protected virtual void Update()
     {
+
+        if(PauseMove )
+        {
+            return;
+        }
         // Movimento
         transform.position += moveDirection * moveSpeed * Time.deltaTime;
 

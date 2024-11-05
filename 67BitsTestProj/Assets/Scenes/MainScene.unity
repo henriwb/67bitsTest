@@ -648,6 +648,7 @@ MonoBehaviour:
   myAnimation: {fileID: 86287084}
   punchButton: {fileID: 840764119}
   myPunch: {fileID: 1645122429}
+  myMovement: {fileID: 642427702}
 --- !u!114 &642427702
 MonoBehaviour:
   m_ObjectHideFlags: 0

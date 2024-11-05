@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     public CharacterAnimation myAnimation;
     public Button punchButton;
     public Punch myPunch;
+    public CharacterMovement myMovement;
 
     private bool isPunching;
 
@@ -41,10 +42,13 @@ public class Player : MonoBehaviour
 
     IEnumerator PunchAnimation()
     {
+        myMovement.PauseMovement(true);
         yield return new WaitForSeconds(0.1f);
         myPunch.myCollider.enabled = true;
         yield return new WaitForSeconds(0.4f);
         isPunching = false;
         myPunch.myCollider.enabled = false;
+        yield return new WaitForSeconds(0.1f);
+        myMovement.PauseMovement(false);
     }
 }
