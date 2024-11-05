@@ -1,21 +1,12 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public abstract class CharacterMovement : MonoBehaviour
 {
     private Vector3 moveDirection;
     public float moveSpeed = 5f;
     public GameObject playerModel;
-
-    void Start()
-    {
-        InputController.OnDirectionChanged += UpdateMoveDirection;
-    }
-
-    private void OnDisable()
-    {
-        InputController.OnDirectionChanged -= UpdateMoveDirection;
-    }
 
     void Update()
     {
