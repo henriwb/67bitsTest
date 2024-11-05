@@ -21,4 +21,9 @@ public class CharacterAnimation : MonoBehaviour
     {
         animator.SetTrigger("run");
     }
+
+    public void Punch()
+    {
+        animator.SetTrigger("punch");
+    }
 }
