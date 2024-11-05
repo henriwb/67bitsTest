@@ -19,7 +19,7 @@ public class CharacterAnimation : MonoBehaviour
 
     public void CheckJoystickChanged(bool usingJoystick)
     {
-        animator.SetTrigger("run");
+        animator.SetBool("running", usingJoystick);
     }
 
     public void Punch()

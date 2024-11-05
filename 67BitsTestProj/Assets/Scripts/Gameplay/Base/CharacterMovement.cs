@@ -8,7 +8,7 @@ public abstract class CharacterMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public GameObject playerModel;
 
-    void Update()
+    protected virtual void Update()
     {
         // Movimento
         transform.position += moveDirection * moveSpeed * Time.deltaTime;
@@ -20,7 +20,7 @@ public abstract class CharacterMovement : MonoBehaviour
         }
     }
 
-    public void UpdateMoveDirection(Vector3 fromJoystick)
+    protected virtual void UpdateMoveDirection(Vector3 fromJoystick)
     {
         moveDirection = fromJoystick.normalized; // Assegura que a direção está normalizada
     }
