@@ -33,6 +33,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+        // DEBUG FOR EDITOR TESTS
         if(Input.GetKeyDown(KeyCode.Space))
         {
             PunchAction();

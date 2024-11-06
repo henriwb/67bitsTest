@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class StageController : MonoBehaviour
@@ -14,6 +15,7 @@ public class StageController : MonoBehaviour
     public static StageController instance;
 
     public static Action<int> OnStackNumberChanged;
+    public TextMeshProUGUI MaxLimitText;
     private int CurrentStack;
 
      void Awake()
@@ -44,9 +46,7 @@ public class StageController : MonoBehaviour
     
     public void ShowMaxStackMessage()
     {
-
-
-
+        MaxLimitText.gameObject.SetActive(true);
     }
    
 }
