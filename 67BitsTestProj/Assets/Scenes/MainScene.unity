@@ -2124,6 +2124,11 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!4 &1007184635 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7219742210356789257, guid: 6227c63b6692ac74b8cc5de861647723, type: 3}
+  m_PrefabInstance: {fileID: 309962834476502641}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1108134441
 GameObject:
   m_ObjectHideFlags: 0
@@ -3443,6 +3448,10 @@ PrefabInstance:
       propertyPath: heightStack
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 3104547959635571403, guid: 6227c63b6692ac74b8cc5de861647723, type: 3}
+      propertyPath: ModelRotation
+      value: 
+      objectReference: {fileID: 1007184635}
     - target: {fileID: 3104547959635571403, guid: 6227c63b6692ac74b8cc5de861647723, type: 3}
       propertyPath: playerTransform
       value: 

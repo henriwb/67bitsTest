@@ -6,6 +6,7 @@ public class StackObjects : MonoBehaviour
 {
     public Transform StackParent;
     public Transform playerTransform;
+    public Transform ModelRotation; // Objeto de referência para rotação
     private float heightStack = 0.35f;
     private List<GameObject> objects = new List<GameObject>();
     private List<Vector3> playerPositions = new List<Vector3>();
@@ -13,6 +14,9 @@ public class StackObjects : MonoBehaviour
 
     void Update()
     {
+        // Copia a rotação do ModelRotation para StackParent
+        StackParent.rotation = ModelRotation.rotation;
+
         // Armazena a posição atual do player, mantendo um histórico
         playerPositions.Insert(0, playerTransform.position);
 
