@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class ReceiverTask : MonoBehaviour
 {
@@ -28,15 +29,21 @@ public class ReceiverTask : MonoBehaviour
 
     IEnumerator ReceiverRoutine(StackObjects stacker, Player who)
     {
+        int addCoins = 0;
         while (stacker.HasOne())
         {
             GameObject getFromStack = stacker.ReturnLastFromList();
-            //StageController.instance.AddExp(1);
-            StageController.instance.AddCoins();
-            StartCoroutine(MoveAndShrinkCoroutine(getFromStack, SourceToConsume.transform.position, 0.7f));
-            yield return new WaitForSeconds(0.7f);
+            addCoins++;
+            StartCoroutine(MoveAndShrinkCoroutine(getFromStack, SourceToConsume.transform.position, 0.4f));
+            yield return new WaitForSeconds(0.4f);
         }
 
+        while(addCoins > 0)
+        {
+            StageController.instance.AddCoins();
+            yield return new WaitForSeconds(0.2f);
+            addCoins--;
+        }
         who.myMovement.PauseMovement(false);
         DoingAnimation = false;
 
