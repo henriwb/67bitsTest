@@ -37,13 +37,13 @@ public class StageController : MonoBehaviour
 
     private void OnStackChanged(int quant)
     {
-        stackCounter.UpdateUI(GetCurrentMaxStacks(), quant, MyLevel, (expPerLevel * MyLevel) - currentExp);
+        stackCounter.UpdateUI(GetCurrentMaxStacks(), quant, MyLevel, (expPerLevel * MyLevel) - currentExp, expPerLevel * MyLevel);
         CurrentStack = quant;
     }
 
     void Start()
     {
-        stackCounter.UpdateUI(GetCurrentMaxStacks(), 0, MyLevel, (expPerLevel * MyLevel) - currentExp);
+        stackCounter.UpdateUI(GetCurrentMaxStacks(), 0, MyLevel, (expPerLevel * MyLevel) - currentExp, expPerLevel * MyLevel);
         OnStackNumberChanged += OnStackChanged;
         stackCounter.UpdateCoins(GetCoins());
     }
@@ -75,7 +75,7 @@ public class StageController : MonoBehaviour
             SaveExp(); // Salva somente a experiência se o nível não foi alterado
         }
 
-        stackCounter.UpdateUI(GetCurrentMaxStacks(), CurrentStack, MyLevel, (expPerLevel * MyLevel) - currentExp);
+        stackCounter.UpdateUI(GetCurrentMaxStacks(), CurrentStack, MyLevel, (expPerLevel * MyLevel) - currentExp, expPerLevel * MyLevel);
     }
 
     private void SavePlayerData()
