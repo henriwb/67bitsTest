@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     public Punch myPunch;
     public CharacterMovement myMovement;
     public StackObjects myStackObjects;
+    public DetectCollision myDetectCollision;
 
     private bool isPunching;
 
@@ -19,6 +20,18 @@ public class Player : MonoBehaviour
     {
         punchButton.onClick.RemoveAllListeners();
         punchButton.onClick.AddListener(PunchAction);
+        myDetectCollision.OnDetectedCollision += CheckReceiverEnter;
+    }
+
+
+    private void CheckReceiverEnter(GameObject who)
+    {
+
+        if(who.GetComponent<ReceiverTask>()!=null)
+        {
+            who.GetComponent<ReceiverTask>().ReceiverInit(myStackObjects, this);
+        }
+
     }
 
     private void OnEnable()
@@ -45,8 +58,7 @@ public class Player : MonoBehaviour
         if (StageController.instance.CanAddStack())
         {
             myStackObjects.AddToStack(who.gameObject);
-            int currentStaclk = myStackObjects.GetCurrentStack();
-            StageController.OnStackNumberChanged(currentStaclk);
+            
         }
         else
         {

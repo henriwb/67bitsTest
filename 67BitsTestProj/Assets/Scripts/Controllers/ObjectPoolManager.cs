@@ -64,7 +64,7 @@ public class ObjectPoolManager : MonoBehaviour
         // Procurar por um objeto inativo no pool
         foreach (GameObject pooledObject in poolDictionary[tag])
         {
-            if (!pooledObject.gameObject.activeSelf)
+            if (pooledObject!=null && !pooledObject.gameObject.activeSelf)
             {
                 objectToSpawn = pooledObject;
                 break;
