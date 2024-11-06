@@ -31,6 +31,7 @@ public class ReceiverTask : MonoBehaviour
         while (stacker.HasOne())
         {
             GameObject getFromStack = stacker.ReturnLastFromList();
+            StageController.instance.AddExp(1);
             StartCoroutine(MoveAndShrinkCoroutine(getFromStack, SourceToConsume.transform.position, 0.7f));
             yield return new WaitForSeconds(0.7f);
         }
@@ -64,6 +65,7 @@ public class ReceiverTask : MonoBehaviour
         objectToMove.transform.localScale = Vector3.zero;
 
         // Desativa o objeto
+        
         objectToMove.transform.SetParent(null);
         Destroy(objectToMove);
     }

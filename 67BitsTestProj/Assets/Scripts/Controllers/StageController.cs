@@ -11,12 +11,15 @@ public class StageController : MonoBehaviour
     public int MyLevel = 1;
     public int stacksPerLevel;
     public StackCounterUI stackCounter;
+    public int expPerLevel;
 
     public static StageController instance;
 
     public static Action<int> OnStackNumberChanged;
     public TextMeshProUGUI MaxLimitText;
     private int CurrentStack;
+
+    public int currentExp;
 
      void Awake()
      {
@@ -25,14 +28,14 @@ public class StageController : MonoBehaviour
 
     private void OnStackChanged(int quant)
     {
-        stackCounter.UpdateUI(GetCurrentMaxStacks(), quant);
+        stackCounter.UpdateUI(GetCurrentMaxStacks(), quant, MyLevel, (expPerLevel*MyLevel) - currentExp);
         CurrentStack = quant;
     }
 
 
     void Start()
     {
-        stackCounter.UpdateUI(GetCurrentMaxStacks(), 0);
+        stackCounter.UpdateUI(GetCurrentMaxStacks(), 0, MyLevel, (expPerLevel * MyLevel) - currentExp);
         OnStackNumberChanged += OnStackChanged;
     }
 
@@ -47,6 +50,17 @@ public class StageController : MonoBehaviour
     public void ShowMaxStackMessage()
     {
         MaxLimitText.gameObject.SetActive(true);
+    }
+
+    public void AddExp(int exp)
+    {
+        currentExp += exp;
+        if(currentExp >= (expPerLevel * MyLevel))
+        {
+            MyLevel++;
+            currentExp = 0;
+        }
+        stackCounter.UpdateUI(GetCurrentMaxStacks(), CurrentStack, MyLevel, (expPerLevel * MyLevel) - currentExp);
     }
    
 }
