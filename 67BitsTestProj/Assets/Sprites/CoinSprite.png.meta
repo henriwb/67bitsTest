@@ -1,0 +1,3418 @@
+fileFormatVersion: 2
+guid: 34f1068d537d0ba48a0b2a515b374706
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 996
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885f9f9a8ee8e324a802c9d140bbd5cb
+      internalID: 1364045830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1014
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9fa89dd7ed6874c81122954cbda1a7
+      internalID: 89208614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1010
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104c29d0375f8f644b01b60384fb5fbf
+      internalID: -1420067998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1014
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c3f075725fac24ca4114d86d4a88e6
+      internalID: -1553395527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 939
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee9310e63ee56440b27d94988c5330b
+      internalID: -1793257384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_5
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 991
+        width: 54
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32add997d497b564dbc4917e1f904dba
+      internalID: 879798338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_6
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 990
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5035df0981d7444bfd026367896f00
+      internalID: -1579651235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_7
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 980
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bbde6ef681402429789daa7a52a39b
+      internalID: 777408053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_8
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 955
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b10484c21eb61b4ba3b3813b39c65a3
+      internalID: 1166939865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 968
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ef3f3b4ebc3ca40aaa2ce163df193f
+      internalID: -341219027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_10
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 984
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22cda7e591833a4c9206a274abd78d6
+      internalID: -265230127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 940
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67833dbb81d46e40b91cbe675938de6
+      internalID: 56798351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_12
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 901
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e331c98a52eee684280708ecd45708c4
+      internalID: 882740012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_13
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 901
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ad7acdcef662340849bf0900ed1606
+      internalID: -1237385723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_14
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 909
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a39000b715f74499f55c551b74a6b7
+      internalID: -1284427554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_15
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 894
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0b178613715774995688fc085185dd
+      internalID: -1751062655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_16
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 926
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edef98b0d2ebae4284e8fd81aa686f9
+      internalID: -460059118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 850
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952f912c446995d4caee0ca875fda311
+      internalID: -970098374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_18
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 906
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3998500b89c19647ae176584c665ad6
+      internalID: -2067289592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_19
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 863
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30df58011c9c0a34898a7804fd04859d
+      internalID: -105161503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ce5c968920b704983049c196703f12
+      internalID: 976340186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_21
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 811
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db60153a79acb149a97ef6c6e7eeb09
+      internalID: 479609730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_22
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 811
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b107bf92e83c1478eb2caacbee219a
+      internalID: -897154201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_23
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 832
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c9c91ae1b04864390c1e7a69d7fdc5
+      internalID: 900091670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_24
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 834
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ca19916938a924a86bcb0f8a90733f
+      internalID: -613093368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_25
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 800
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d6ec5311b0a044182ace88a58c9219
+      internalID: 785969502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_26
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 810
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e478653f601c604c8bfd56e902ba077
+      internalID: 945974807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_27
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 721
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1e3dab7b9baaf4fa746216de29cdcf
+      internalID: -2017269688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_28
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 721
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7762a3d2417e0418e9128c2014fc91
+      internalID: 36037104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_29
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 762
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115c1604225bb764ea3fe6601946f1f0
+      internalID: -1789165144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_30
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 768
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fa8881fa86be1439e34150a0466304
+      internalID: 305283847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_31
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 739
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d70461d5e759ec48a945560ccf06ae5
+      internalID: 1203442513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_32
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 768
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8b608396accd840b6992a581f02194
+      internalID: -1848560629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 670
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f31b05e41772947812e1e3877aa63d
+      internalID: 1300736093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_34
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 690
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 7, z: 10, w: 8}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d743d1c68c740c41b4015d9a6c77793
+      internalID: -889839095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_35
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 706
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f132ab53ca3d584d8a8eb09f6ea6260
+      internalID: 1548547840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_36
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 678
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5951b73882fbcea40b50414832b1ba3c
+      internalID: -1193684110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_37
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 720
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292a0d48107d4cc44ba6105b964cf09e
+      internalID: -1717119114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_38
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 631
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485bbf60b7b31b04d93c8cba2cd95beb
+      internalID: 589302980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_39
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 631
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c40a5024006ce140aed86883bde2728
+      internalID: 888239266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_40
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 604
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674b5eec6dbd8424ba14d8ed364d50e1
+      internalID: 1122445988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_41
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 644
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6fd512d768c964bb361469f7966f3c
+      internalID: 822474249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_42
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 618
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc4092abcb57e340894eb37cf4953c5
+      internalID: -1376862263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_43
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 666
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8cc1fd86c5a0c408330256af5feabc
+      internalID: -2025510015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 580
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfe8cf1b4c7bd14dad29ece6e757557
+      internalID: 366590255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_45
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 648
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf5db4afd4b6c54bb557fcb2b68745c
+      internalID: -1765614914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_46
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 612
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452fa91c0067a9c469e50246fb1e6019
+      internalID: 928808645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_47
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 541
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c650ed65257e344ebb150db4632b828
+      internalID: 1683842674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_48
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 541
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7048c671ef377c348b1b191bd5e4ee0d
+      internalID: -1227159080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_49
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 537
+        width: 90
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477ad4edce7ee704f9d5e8d50834bf1e
+      internalID: 2089199755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_50
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 581
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4717a4ac7209b489dbea425fb2145e
+      internalID: -1317099163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_51
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 558
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655cb49967155d046a8e3b396ee5fa33
+      internalID: -2048195536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_52
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 552
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f884f1589d685d4469792670b3ca3c83
+      internalID: 1162480591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_53
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 552
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f4a9e0b31267b41b1bfb6df0f183ce
+      internalID: -1901628060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_54
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 552
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1efee87aa522094699b8080c56323e3
+      internalID: 25537022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_55
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 552
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0932b80bd9a06ee4d8e0ac87dab0b568
+      internalID: 164048313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_56
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 552
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696900c25200cf947a5b72d2735964cd
+      internalID: 2086440783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 490
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7651a4a893c2814cb214924ec8d930d
+      internalID: -1518981028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_58
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 501
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba255ca8efc6f0140a9e4bc36bc8e4dd
+      internalID: 1424230319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_59
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 570
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52007a9cb43d02d4592e74e4369a09a7
+      internalID: -687488600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_60
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 565
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e24fe1aa36fbc438d471c036bd45c1
+      internalID: 1107757707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_61
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 546
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8582a6c702914834b89ec25afe70977a
+      internalID: -1985119432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_62
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 491
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94fe25390852bd4dad92df1dfc4a5c2
+      internalID: 1756797198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_63
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 546
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5f401c51c4ded40b7d62ddfb537dd2
+      internalID: -1329700432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_64
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 491
+        width: 53
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e05cbe79b4701448ba064abf6ba2481
+      internalID: -350359364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_65
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 522
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c77698384bc5d46ac1a151b2de7d56
+      internalID: -1795343060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_66
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 451
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd7ddb236aa2f640900d9c13c358a03
+      internalID: -1112683642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_67
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 451
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644b600864f2e8e4283cbe38609eb009
+      internalID: -1118551900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_68
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 531
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35a28d174d288e4dbec369cc01b2cdd
+      internalID: -359896762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_69
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 491
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3aeae8c3afe75e42802e7cb27062153
+      internalID: -1952055967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_70
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 491
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592d7f417937ce545a257a4ebb1f1035
+      internalID: -671320748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_71
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 491
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd881de769388fb45bfb3dd792279a33
+      internalID: -1209484531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_72
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 490
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424a3e680ec902b4786f17af11aa57df
+      internalID: -1167002282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_73
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 491
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c5f892942adc5449e6495d20b8a2de
+      internalID: 1832660393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_74
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 491
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53429cd84ef01d348b11df5f3530f4e5
+      internalID: 1861409798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_75
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 491
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ff1c2449d119b49b0fb1a3386cbd49
+      internalID: -940290683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_76
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 449
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8fa78a444bcda43a67bee006ef9517
+      internalID: -1397223195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_77
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 516
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6445660e4eef8dc43b333f38737f9530
+      internalID: 1439215146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_78
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 490
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c762675005bdee54a9e3e5dc5b6fb8a7
+      internalID: -1662434869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_79
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 425
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7235657a9f3b8489b278ac2c0455c6
+      internalID: 221045677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_80
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 492
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d85a291c303d445bd0af695ba0eb38
+      internalID: 701771972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143c95087e8db8c46a076aae315ecc3b
+      internalID: 1101074855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_82
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 432
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d559b013106e6a840afc5273a47d1a18
+      internalID: -1494763694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_83
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 361
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f06004f380649f499b4d9c217d94d25
+      internalID: -2089807238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_84
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 361
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b08a495e5f7a84f9934a9890571f40
+      internalID: 2065056755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_85
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 361
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4933ccf932763499d813e3c5992eae
+      internalID: -1251123312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_86
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 425
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8977fc075500714595a6440ddad9d26
+      internalID: -2115247478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_87
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 425
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8d1bc2368282640b1c9ad886a6678a
+      internalID: -365107770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_88
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 425
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8e0cf5918604a4bb9ef300acc11891
+      internalID: 562930875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_89
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 425
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3c46162447df044bea3ff43c5fc82a
+      internalID: -542285137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_90
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 425
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7288ba7b8e2f6194eba55d5d98310a80
+      internalID: 1553056700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_91
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 425
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4a9d173c4404949bc8f8742ccfcfaa
+      internalID: -1608791758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_92
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 425
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116cd3fa3dd7c7d49ab9fd7151a2a68e
+      internalID: -1729519994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_93
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 425
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a584f941822d7cd45b282fce81e915b4
+      internalID: 1420781955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_94
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 425
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3adfa0b21d88fa488418931039d5625
+      internalID: 1850724689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_95
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 400
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ca4df4b2db5734eb5061387e3e054d
+      internalID: 1660680516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_96
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 360
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549d1895d02ff57458842bdd1b074560
+      internalID: -156611980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_97
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 354
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f258f7357d3e2049bcc2a3ff3a2d4ee
+      internalID: -610831701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_98
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 398
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f74901759c42c940903895dd9e5f594
+      internalID: -1342253586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_99
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 361
+        width: 67
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c4eccfb8a9d394fb715a18cb433879
+      internalID: 2040685741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_100
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 361
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b74f5284ed2c04588a98c83f87f8b1
+      internalID: -382248656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_101
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 361
+        width: 54
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01348aa8d03ac3c47979182ca428645a
+      internalID: -1724655076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_102
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 361
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff314f2fe13b8124eb16e5856ca1d76e
+      internalID: -1714017267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_103
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 361
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ab9d05a5a14ac48b4059cba43b6a90
+      internalID: -1320549895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_104
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 361
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bffbe612f7ce24cb4734521602b2db
+      internalID: 263443177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_105
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 361
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91890469dd66310458edcfc91a9502f1
+      internalID: -925715016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148435ed917a39143aad6d3e06073275
+      internalID: 361208027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_107
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 342
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24acb994f67f2d645a10030d67c7a68e
+      internalID: 751453682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_108
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 271
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e9466b52b15ef47aad04a95b47dd69
+      internalID: -128542374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_109
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 271
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15f5678e57dafb46ad0215148fd3975
+      internalID: -121798984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_110
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 271
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e970c03e2a7e7ef4ab3bbe803c1250de
+      internalID: -1789197611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_111
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 271
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dfa8639e94053499b914294d262b28
+      internalID: -620084166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_112
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 271
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8382e2d66a4e34e851e2bf0478a36a
+      internalID: 1456828489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_113
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 271
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2891d0794b6a51d43b843a37f98c4087
+      internalID: 134018750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_114
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 271
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c054fc6ab7d07488f4b47dd744a1a0
+      internalID: 577558056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_115
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 271
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b26de4c86c4af46a5d77bc5d8e64df
+      internalID: -2018838351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_116
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 271
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb158d700435b7e40b97fa2499a83b9a
+      internalID: -1108708958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_117
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 271
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416cc50c120f2ea40a5523e2045c31f8
+      internalID: -2102467827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_118
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 310
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da660fba661e5a4db865c6e1f96dc33
+      internalID: -1485806549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 105
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae07a885f93e1b4588d589f30444a86
+      internalID: -1601248804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_120
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 181
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ff29c495b45a947bbd0e6902e71783
+      internalID: -1204658024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_121
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 181
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5da6d0739d5eb47a5694cb19beee9c
+      internalID: -682745434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_122
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 181
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf45bddd9512f16438f9713b62363f33
+      internalID: -1268321204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_123
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 181
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4a81f10ac96df49bc12fc047d7f2b6
+      internalID: -1112508044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_124
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 181
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca96724ba1a1e74cb0f8d5e66d337c3
+      internalID: -290424665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_125
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 181
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71af3d71380eecc4799e52dd201ac15c
+      internalID: -715430511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_126
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 181
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db93b325fefcdf409081bf8a983555f
+      internalID: 1460867298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_127
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 181
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2919b1b3e1cdc14aa2db7c4e463baae
+      internalID: 1737231340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_128
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 181
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab8fcc70df85b94f851df1d53a4999c
+      internalID: 651969250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_129
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 181
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ac3f4e9847bb6468594fb5d2e4efa0
+      internalID: -1041846020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_130
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 179
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f40781a0822ed469288f972a1e3f58
+      internalID: 852757182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_131
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 0
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2671e25d0586b294cb77a0842f7b09d5
+      internalID: -1452129420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_132
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1
+        width: 162
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1d8c703c13acd40a16837f4e9eb014
+      internalID: 723706818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_133
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 144
+        width: 62
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf1794f5156c964bbd68ad55e1bece4
+      internalID: -1370255763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_134
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 149
+        width: 62
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb5848965aae1749935097432e7673f
+      internalID: -1354718680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_135
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 128
+        width: 81
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584543b66aa6dda4d80d742d29f21edc
+      internalID: -875438164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_136
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 126
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1494b4a31c6fb4c9fdaceb77fb0442
+      internalID: -1993373915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_137
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 128
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6c4595523bfb24e9f23a86a26b8e78
+      internalID: -1420687239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_138
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 128
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eeb97d977d242748816a7ea5404bd1f
+      internalID: 712915927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_139
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 90
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56aa66fd079cca04690d72b3ae6d6046
+      internalID: -412173211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_140
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 150
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d5e192586aec542a6356e92f1414cc
+      internalID: -1936416567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_141
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 120
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0decce4bd7ce9d948a4175f8bca629ff
+      internalID: -733461274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_142
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 0
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60930a082e593f41b2ef1fd9a163c70
+      internalID: 1986497880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_143
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 108
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d009a005fcaffc4e8fa814681156551
+      internalID: -1546505393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_144
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 69
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d6db99dc0d42c4ba01146845694f13
+      internalID: -1700673988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_145
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 12
+        width: 93
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6f1f57f27a0574182202c1b858c391
+      internalID: 1453575575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_146
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 0
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce503385940fe641b1efe3fd0377614
+      internalID: 360852513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_147
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 9
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971513e81a863964bb4bacc67f3776ac
+      internalID: 172147764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile Cartoon Rock_148
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 0
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8b463969462cc47b7f153aa365f57e
+      internalID: 1521464664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mobile Cartoon Rock_0: 1364045830
+      Mobile Cartoon Rock_1: 89208614
+      Mobile Cartoon Rock_10: -265230127
+      Mobile Cartoon Rock_100: -382248656
+      Mobile Cartoon Rock_101: -1724655076
+      Mobile Cartoon Rock_102: -1714017267
+      Mobile Cartoon Rock_103: -1320549895
+      Mobile Cartoon Rock_104: 263443177
+      Mobile Cartoon Rock_105: -925715016
+      Mobile Cartoon Rock_106: 361208027
+      Mobile Cartoon Rock_107: 751453682
+      Mobile Cartoon Rock_108: -128542374
+      Mobile Cartoon Rock_109: -121798984
+      Mobile Cartoon Rock_11: 56798351
+      Mobile Cartoon Rock_110: -1789197611
+      Mobile Cartoon Rock_111: -620084166
+      Mobile Cartoon Rock_112: 1456828489
+      Mobile Cartoon Rock_113: 134018750
+      Mobile Cartoon Rock_114: 577558056
+      Mobile Cartoon Rock_115: -2018838351
+      Mobile Cartoon Rock_116: -1108708958
+      Mobile Cartoon Rock_117: -2102467827
+      Mobile Cartoon Rock_118: -1485806549
+      Mobile Cartoon Rock_119: -1601248804
+      Mobile Cartoon Rock_12: 882740012
+      Mobile Cartoon Rock_120: -1204658024
+      Mobile Cartoon Rock_121: -682745434
+      Mobile Cartoon Rock_122: -1268321204
+      Mobile Cartoon Rock_123: -1112508044
+      Mobile Cartoon Rock_124: -290424665
+      Mobile Cartoon Rock_125: -715430511
+      Mobile Cartoon Rock_126: 1460867298
+      Mobile Cartoon Rock_127: 1737231340
+      Mobile Cartoon Rock_128: 651969250
+      Mobile Cartoon Rock_129: -1041846020
+      Mobile Cartoon Rock_13: -1237385723
+      Mobile Cartoon Rock_130: 852757182
+      Mobile Cartoon Rock_131: -1452129420
+      Mobile Cartoon Rock_132: 723706818
+      Mobile Cartoon Rock_133: -1370255763
+      Mobile Cartoon Rock_134: -1354718680
+      Mobile Cartoon Rock_135: -875438164
+      Mobile Cartoon Rock_136: -1993373915
+      Mobile Cartoon Rock_137: -1420687239
+      Mobile Cartoon Rock_138: 712915927
+      Mobile Cartoon Rock_139: -412173211
+      Mobile Cartoon Rock_14: -1284427554
+      Mobile Cartoon Rock_140: -1936416567
+      Mobile Cartoon Rock_141: -733461274
+      Mobile Cartoon Rock_142: 1986497880
+      Mobile Cartoon Rock_143: -1546505393
+      Mobile Cartoon Rock_144: -1700673988
+      Mobile Cartoon Rock_145: 1453575575
+      Mobile Cartoon Rock_146: 360852513
+      Mobile Cartoon Rock_147: 172147764
+      Mobile Cartoon Rock_148: 1521464664
+      Mobile Cartoon Rock_15: -1751062655
+      Mobile Cartoon Rock_16: -460059118
+      Mobile Cartoon Rock_17: -970098374
+      Mobile Cartoon Rock_18: -2067289592
+      Mobile Cartoon Rock_19: -105161503
+      Mobile Cartoon Rock_2: -1420067998
+      Mobile Cartoon Rock_20: 976340186
+      Mobile Cartoon Rock_21: 479609730
+      Mobile Cartoon Rock_22: -897154201
+      Mobile Cartoon Rock_23: 900091670
+      Mobile Cartoon Rock_24: -613093368
+      Mobile Cartoon Rock_25: 785969502
+      Mobile Cartoon Rock_26: 945974807
+      Mobile Cartoon Rock_27: -2017269688
+      Mobile Cartoon Rock_28: 36037104
+      Mobile Cartoon Rock_29: -1789165144
+      Mobile Cartoon Rock_3: -1553395527
+      Mobile Cartoon Rock_30: 305283847
+      Mobile Cartoon Rock_31: 1203442513
+      Mobile Cartoon Rock_32: -1848560629
+      Mobile Cartoon Rock_33: 1300736093
+      Mobile Cartoon Rock_34: -889839095
+      Mobile Cartoon Rock_35: 1548547840
+      Mobile Cartoon Rock_36: -1193684110
+      Mobile Cartoon Rock_37: -1717119114
+      Mobile Cartoon Rock_38: 589302980
+      Mobile Cartoon Rock_39: 888239266
+      Mobile Cartoon Rock_4: -1793257384
+      Mobile Cartoon Rock_40: 1122445988
+      Mobile Cartoon Rock_41: 822474249
+      Mobile Cartoon Rock_42: -1376862263
+      Mobile Cartoon Rock_43: -2025510015
+      Mobile Cartoon Rock_44: 366590255
+      Mobile Cartoon Rock_45: -1765614914
+      Mobile Cartoon Rock_46: 928808645
+      Mobile Cartoon Rock_47: 1683842674
+      Mobile Cartoon Rock_48: -1227159080
+      Mobile Cartoon Rock_49: 2089199755
+      Mobile Cartoon Rock_5: 879798338
+      Mobile Cartoon Rock_50: -1317099163
+      Mobile Cartoon Rock_51: -2048195536
+      Mobile Cartoon Rock_52: 1162480591
+      Mobile Cartoon Rock_53: -1901628060
+      Mobile Cartoon Rock_54: 25537022
+      Mobile Cartoon Rock_55: 164048313
+      Mobile Cartoon Rock_56: 2086440783
+      Mobile Cartoon Rock_57: -1518981028
+      Mobile Cartoon Rock_58: 1424230319
+      Mobile Cartoon Rock_59: -687488600
+      Mobile Cartoon Rock_6: -1579651235
+      Mobile Cartoon Rock_60: 1107757707
+      Mobile Cartoon Rock_61: -1985119432
+      Mobile Cartoon Rock_62: 1756797198
+      Mobile Cartoon Rock_63: -1329700432
+      Mobile Cartoon Rock_64: -350359364
+      Mobile Cartoon Rock_65: -1795343060
+      Mobile Cartoon Rock_66: -1112683642
+      Mobile Cartoon Rock_67: -1118551900
+      Mobile Cartoon Rock_68: -359896762
+      Mobile Cartoon Rock_69: -1952055967
+      Mobile Cartoon Rock_7: 777408053
+      Mobile Cartoon Rock_70: -671320748
+      Mobile Cartoon Rock_71: -1209484531
+      Mobile Cartoon Rock_72: -1167002282
+      Mobile Cartoon Rock_73: 1832660393
+      Mobile Cartoon Rock_74: 1861409798
+      Mobile Cartoon Rock_75: -940290683
+      Mobile Cartoon Rock_76: -1397223195
+      Mobile Cartoon Rock_77: 1439215146
+      Mobile Cartoon Rock_78: -1662434869
+      Mobile Cartoon Rock_79: 221045677
+      Mobile Cartoon Rock_8: 1166939865
+      Mobile Cartoon Rock_80: 701771972
+      Mobile Cartoon Rock_81: 1101074855
+      Mobile Cartoon Rock_82: -1494763694
+      Mobile Cartoon Rock_83: -2089807238
+      Mobile Cartoon Rock_84: 2065056755
+      Mobile Cartoon Rock_85: -1251123312
+      Mobile Cartoon Rock_86: -2115247478
+      Mobile Cartoon Rock_87: -365107770
+      Mobile Cartoon Rock_88: 562930875
+      Mobile Cartoon Rock_89: -542285137
+      Mobile Cartoon Rock_9: -341219027
+      Mobile Cartoon Rock_90: 1553056700
+      Mobile Cartoon Rock_91: -1608791758
+      Mobile Cartoon Rock_92: -1729519994
+      Mobile Cartoon Rock_93: 1420781955
+      Mobile Cartoon Rock_94: 1850724689
+      Mobile Cartoon Rock_95: 1660680516
+      Mobile Cartoon Rock_96: -156611980
+      Mobile Cartoon Rock_97: -610831701
+      Mobile Cartoon Rock_98: -1342253586
+      Mobile Cartoon Rock_99: 2040685741
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

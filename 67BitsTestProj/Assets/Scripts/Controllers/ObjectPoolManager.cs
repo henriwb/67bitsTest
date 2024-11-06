@@ -99,6 +99,55 @@ public class ObjectPoolManager : MonoBehaviour
 
         return objectToSpawn;
     }
+
+    public GameObject SpawnFromPool(string tag)
+    {
+        if (!poolDictionary.ContainsKey(tag))
+        {
+            Debug.LogWarning("Pool with tag " + tag + " doesn't exist.");
+            return new GameObject();
+        }
+
+        GameObject objectToSpawn = null;
+
+        // Procurar por um objeto inativo no pool
+        foreach (GameObject pooledObject in poolDictionary[tag])
+        {
+            if (pooledObject != null && !pooledObject.gameObject.activeSelf)
+            {
+                objectToSpawn = pooledObject;
+                break;
+            }
+        }
+
+        // Se nenhum objeto inativo foi encontrado, criar um novo
+        if (objectToSpawn == null)
+        {
+            Pool pool = pools.Find(p => p.tag == tag);
+            if (pool != null)
+            {
+                if (pool.prefab.transform.parent != null)
+                    objectToSpawn = Instantiate(pool.prefab, pool.prefab.transform.position, pool.prefab.transform.rotation, pool.prefab.transform.parent);
+                else
+                {
+                    objectToSpawn = Instantiate(pool.prefab, pool.prefab.transform.position, pool.prefab.transform.rotation, DefaultParent);
+                }
+                poolDictionary[tag].Enqueue(objectToSpawn); // Enfileirar o novo objeto criado
+            }
+            else
+            {
+                Debug.LogWarning("No pool found with tag: " + tag);
+                return null;
+            }
+        }
+
+        // Configurar o objeto para ser usado
+        //objectToSpawn.transform.position = position;
+        //objectToSpawn.transform.rotation = rotation;
+        //objectToSpawn.SetActive(true);
+
+        return objectToSpawn;
+    }
 }
 
 public class PooledObject : MonoBehaviour

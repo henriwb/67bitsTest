@@ -11,6 +11,8 @@ public class StackCounterUI : MonoBehaviour
 
     public TextMeshProUGUI m_myLevel;
     public TextMeshProUGUI m_expToLevel;
+
+    public TextMeshProUGUI m_coinsText;
    
     public void UpdateUI(int stackMax, int stackCurrent, int myLevel, int expToLevel)
     {
@@ -19,5 +21,10 @@ public class StackCounterUI : MonoBehaviour
         m_myLevel.text = myLevel.ToString();
         m_expToLevel.text = expToLevel.ToString();
 
+    }
+
+    public void UpdateCoins(int quant)
+    {
+        m_coinsText.text = quant.ToString();
     }
 }

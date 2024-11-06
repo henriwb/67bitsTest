@@ -10,6 +10,7 @@ public class NPC : MonoBehaviour
     public Collider myCollider;
     public Animator myAnimator;
     public static Action<NPC> OnNPCDefeat;
+    public ParticleSystem myParticlehit;
 
     private bool Defeated;
 
@@ -31,6 +32,7 @@ public class NPC : MonoBehaviour
         {
             //Debug.Log("ACERTOU PUNCH");
             //gameObject.SetActive(false);
+            myParticlehit.gameObject.SetActive(true);
             transform.localScale *= 0.5f;
             myCollider.enabled = false;
             GetComponent<Rigidbody>().isKinematic = true;

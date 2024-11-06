@@ -32,6 +32,11 @@ public class Player : MonoBehaviour
             who.GetComponent<ReceiverTask>().ReceiverInit(myStackObjects, this);
         }
 
+        if (who.GetComponent<BuyLevelStation>() != null)
+        {
+            who.GetComponent<BuyLevelStation>().ReceiverInit(this);
+        }
+
     }
 
     private void OnEnable()

@@ -31,7 +31,8 @@ public class ReceiverTask : MonoBehaviour
         while (stacker.HasOne())
         {
             GameObject getFromStack = stacker.ReturnLastFromList();
-            StageController.instance.AddExp(1);
+            //StageController.instance.AddExp(1);
+            StageController.instance.AddCoins();
             StartCoroutine(MoveAndShrinkCoroutine(getFromStack, SourceToConsume.transform.position, 0.7f));
             yield return new WaitForSeconds(0.7f);
         }
