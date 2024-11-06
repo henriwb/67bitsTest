@@ -77,10 +77,17 @@ public class Player : MonoBehaviour
     {
         if(isPunching)
         {
-            return;
+            //myAnimation.animator.Play("punchOk", 0, 0.3f);
+            //StopAllCoroutines();
+            //StartCoroutine(PunchAnimation());
+            //return;
+
         }
         isPunching = true;
         myAnimation.Punch();
+        myAnimation.animator.speed = 2f;
+        //myAnimation.animator.Play("punchOk", 0, 0.3f);
+        StopAllCoroutines();
         StartCoroutine(PunchAnimation());
     }
 
@@ -89,10 +96,11 @@ public class Player : MonoBehaviour
         myMovement.PauseMovement(true);
         yield return new WaitForSeconds(0.1f);
         myPunch.myCollider.enabled = true;
-        yield return new WaitForSeconds(0.4f);
+        yield return new WaitForSeconds(0.1f);
         isPunching = false;
         myPunch.myCollider.enabled = false;
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.2f);
+        myAnimation.animator.speed = 1f;
         myMovement.PauseMovement(false);
     }
 }
