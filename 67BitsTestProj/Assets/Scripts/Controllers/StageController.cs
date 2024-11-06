@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,15 +6,47 @@ using UnityEngine;
 public class StageController : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+
+    public int MyLevel = 1;
+    public int stacksPerLevel;
+    public StackCounterUI stackCounter;
+
+    public static StageController instance;
+
+    public static Action<int> OnStackNumberChanged;
+    private int CurrentStack;
+
+     void Awake()
+     {
+        instance = this; 
+     }
+
+    private void OnStackChanged(int quant)
     {
-        
+        stackCounter.UpdateUI(GetCurrentMaxStacks(), quant);
+        CurrentStack = quant;
     }
 
-    // Update is called once per frame
-    void Update()
+
+    void Start()
     {
-        
+        stackCounter.UpdateUI(GetCurrentMaxStacks(), 0);
+        OnStackNumberChanged += OnStackChanged;
+    }
+
+    private void OnDestroy()
+    {
+        OnStackNumberChanged -= OnStackChanged;
+    }
+
+    private int GetCurrentMaxStacks() => MyLevel * stacksPerLevel;
+    public bool CanAddStack() =>  CurrentStack < GetCurrentMaxStacks();
+    
+    public void ShowMaxStackMessage()
+    {
+
+
+
     }
    
 }

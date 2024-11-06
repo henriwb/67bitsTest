@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     public Button punchButton;
     public Punch myPunch;
     public CharacterMovement myMovement;
+    public StackObjects myStackObjects;
 
     private bool isPunching;
 
@@ -20,11 +21,36 @@ public class Player : MonoBehaviour
         punchButton.onClick.AddListener(PunchAction);
     }
 
+    private void OnEnable()
+    {
+        NPC.OnNPCDefeat += DefeatedNPC;
+    }
+
+    private void OnDisable()
+    {
+        NPC.OnNPCDefeat -= DefeatedNPC;
+    }
+
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
             PunchAction();
+        }
+    }
+
+    private void DefeatedNPC(NPC who)
+    {
+        if (StageController.instance.CanAddStack())
+        {
+            myStackObjects.AddToStack(who.gameObject);
+            int currentStaclk = myStackObjects.GetCurrentStack();
+            StageController.OnStackNumberChanged(currentStaclk);
+        }
+        else
+        {
+            StageController.instance.ShowMaxStackMessage();
+
         }
     }
 
