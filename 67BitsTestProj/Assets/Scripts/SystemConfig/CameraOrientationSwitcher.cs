@@ -21,14 +21,14 @@ public class CameraOrientationSwitcher : MonoBehaviour
         if (Screen.width < Screen.height)
         {
             // Ativa a câmera para Portrait e desativa a de Landscape
-            portraitCamera.gameObject.SetActive(true);
-            landscapeCamera.gameObject.SetActive(false);
+            portraitCamera.Priority = 1;
+            landscapeCamera.Priority = 0;
         }
         else
         {
             // Ativa a câmera para Landscape e desativa a de Portrait
-            portraitCamera.gameObject.SetActive(false);
-            landscapeCamera.gameObject.SetActive(true);
+            portraitCamera.Priority = 0;
+            landscapeCamera.Priority = 1;
         }
     }
 }
