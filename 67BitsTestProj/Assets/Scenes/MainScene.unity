@@ -436,7 +436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MyLevel: 1
-  stacksPerLevel: 5
+  stacksPerLevel: 3
   stackCounter: {fileID: 1284297385}
   expPerLevel: 5
   MaxLimitText: {fileID: 1731999156}
@@ -3447,6 +3447,10 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 642427700}
+    - target: {fileID: 6189720671290054132, guid: 6227c63b6692ac74b8cc5de861647723, type: 3}
+      propertyPath: moveSpeed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6775211088149464469, guid: 6227c63b6692ac74b8cc5de861647723, type: 3}
       propertyPath: m_Name
       value: Player
