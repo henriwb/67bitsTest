@@ -16650,6 +16650,10 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 642427700}
+    - target: {fileID: 3104547959635571403, guid: 6227c63b6692ac74b8cc5de861647723, type: 3}
+      propertyPath: elasticityMultiplier
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 6189720671290054132, guid: 6227c63b6692ac74b8cc5de861647723, type: 3}
       propertyPath: moveSpeed
       value: 7
