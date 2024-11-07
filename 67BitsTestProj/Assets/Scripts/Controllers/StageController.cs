@@ -66,7 +66,9 @@ public class StageController : MonoBehaviour
         currentExp += exp;
         if (currentExp >= (expPerLevel * MyLevel))
         {
+            SoundManager.Instance.PlaySound("levelUp");
             MyLevel++;
+            myPlayer.LevelUpAnimation();
             currentExp = 0;
             SavePlayerData(); // Salva nível e experiência atualizados
         }

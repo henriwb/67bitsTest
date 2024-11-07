@@ -34,6 +34,7 @@ public class ReceiverTask : MonoBehaviour
         {
             GameObject getFromStack = stacker.ReturnLastFromList();
             addCoins++;
+            SoundManager.Instance.PlaySound("playerFall");
             StartCoroutine(MoveAndShrinkCoroutine(getFromStack, SourceToConsume.transform.position, 0.4f));
             yield return new WaitForSeconds(0.4f);
         }
@@ -41,6 +42,7 @@ public class ReceiverTask : MonoBehaviour
         while(addCoins > 0)
         {
             StageController.instance.AddCoins();
+            SoundManager.Instance.PlaySound("pickupCoin");
             yield return new WaitForSeconds(0.2f);
             addCoins--;
         }
@@ -60,7 +62,6 @@ public class ReceiverTask : MonoBehaviour
         {
             float progress = elapsedTime / duration;
 
-            // Interpolação de posição e escala
             objectToMove.transform.position = Vector3.Lerp(startPosition, targetPosition, progress);
             objectToMove.transform.localScale = Vector3.Lerp(startScale, Vector3.zero, progress);
 
@@ -68,11 +69,8 @@ public class ReceiverTask : MonoBehaviour
             yield return null;
         }
 
-        // Garante que o objeto termina exatamente na posição e escala final
         objectToMove.transform.position = targetPosition;
         objectToMove.transform.localScale = Vector3.zero;
-
-        // Desativa o objeto
         
         objectToMove.transform.SetParent(null);
         Destroy(objectToMove);

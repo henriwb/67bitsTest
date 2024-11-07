@@ -5,16 +5,14 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-
-    public CharacterAnimation myAnimation;
-    public Button punchButton;
-    public Punch myPunch;
+    [SerializeField] private CharacterAnimation myAnimation;
+    [SerializeField] private Button punchButton;
+    [SerializeField] private Punch myPunch;
+    [SerializeField] private StackObjects myStackObjects;
+    [SerializeField] private DetectCollision myDetectCollision;
+    [SerializeField]private ParticleSystem LevelUpFx;
     public CharacterMovement myMovement;
-    public StackObjects myStackObjects;
-    public DetectCollision myDetectCollision;
-
-    private bool isPunching;
+    private bool isPunching; //not using
 
     void Start()
     {
@@ -63,30 +61,21 @@ public class Player : MonoBehaviour
         if (StageController.instance.CanAddStack())
         {
             myStackObjects.AddToStack(who.gameObject);
-            
         }
         else
         {
             StageController.instance.ShowMaxStackMessage();
-
         }
     }
 
 
     private void PunchAction()
     {
-        if(isPunching)
-        {
-            //myAnimation.animator.Play("punchOk", 0, 0.3f);
-            //StopAllCoroutines();
-            //StartCoroutine(PunchAnimation());
-            //return;
-
-        }
+        
         isPunching = true;
         myAnimation.Punch();
         myAnimation.animator.speed = 2f;
-        //myAnimation.animator.Play("punchOk", 0, 0.3f);
+        SoundManager.Instance.PlaySound("punch");
         StopAllCoroutines();
         StartCoroutine(PunchAnimation());
     }
@@ -102,5 +91,10 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
         myAnimation.animator.speed = 1f;
         myMovement.PauseMovement(false);
+    }
+
+    public void LevelUpAnimation()
+    {
+        LevelUpFx.gameObject.SetActive(true);
     }
 }

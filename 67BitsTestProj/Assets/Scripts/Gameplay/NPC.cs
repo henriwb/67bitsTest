@@ -32,11 +32,9 @@ public class NPC : MonoBehaviour
     {
         if(who.GetComponent<Punch>() != null && !Defeated)
         {
-            //Debug.Log("ACERTOU PUNCH");
-            //gameObject.SetActive(false);
             myParticlehit.transform.SetParent(null);
             myParticlehit.gameObject.SetActive(true);
-
+            SoundManager.Instance.PlaySound("playerHurt");
             transform.localScale *= 0.5f;
             myCollider.enabled = false;
             GetComponent<Rigidbody>().isKinematic = true;

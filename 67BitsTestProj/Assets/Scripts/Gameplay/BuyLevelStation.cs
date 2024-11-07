@@ -27,6 +27,7 @@ public class BuyLevelStation : MonoBehaviour
         while(StageController.instance.GetCoins() > 0)
         {
             StageController.instance.RemoveCoins(1);
+            SoundManager.Instance.PlaySound("pickupCoin", 0.9f);
             GameObject clone = ObjectPoolManager.Instance.SpawnFromPool("spentCoin");
             clone.gameObject.SetActive(true);
             StageController.instance.AddExp(1);
