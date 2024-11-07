@@ -16,6 +16,8 @@ public class NPC : MonoBehaviour
 
     private void OnEnable()
     {
+        myParticlehit.transform.SetParent(gameObject.transform);
+        myParticlehit.transform.localPosition = Vector3.zero;
         Defeated = false;
         CharacterMovement.PauseMovement(false);
         myCollisionDetector.OnDetectedCollision += CollisionChecker;
@@ -32,7 +34,9 @@ public class NPC : MonoBehaviour
         {
             //Debug.Log("ACERTOU PUNCH");
             //gameObject.SetActive(false);
+            myParticlehit.transform.SetParent(null);
             myParticlehit.gameObject.SetActive(true);
+
             transform.localScale *= 0.5f;
             myCollider.enabled = false;
             GetComponent<Rigidbody>().isKinematic = true;
