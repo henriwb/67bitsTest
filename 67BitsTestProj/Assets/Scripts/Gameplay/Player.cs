@@ -25,14 +25,14 @@ public class Player : MonoBehaviour
     private void CheckReceiverEnter(GameObject who)
     {
 
-        if(who.GetComponent<ReceiverTask>()!=null)
+        if (who.GetComponent<BaseStation>() != null)
         {
-            who.GetComponent<ReceiverTask>().ReceiverInit(myStackObjects, this);
+            who.GetComponent<BaseStation>().ReceiverInit( this);
         }
 
-        if (who.GetComponent<BuyLevelStation>() != null)
+        if (who.GetComponent<ReceiverTask>()!=null)
         {
-            who.GetComponent<BuyLevelStation>().ReceiverInit(this);
+            who.GetComponent<ReceiverTask>().ReceiverInit(myStackObjects, this);
         }
 
     }

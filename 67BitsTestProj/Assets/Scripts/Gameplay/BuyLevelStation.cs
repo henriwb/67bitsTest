@@ -1,32 +1,31 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class BuyLevelStation : MonoBehaviour
+public class BuyLevelStation : BaseStation
 {
     public static bool Receiving;
-    public void ReceiverInit(Player who)
+
+    public override void ReceiverInit(Player who)
     {
-        if(Receiving)
+        if (Receiving)
         {
             return;
         }
 
-        if(StageController.instance.GetCoins() <= 0)
+        if (StageController.instance.GetCoins() < coinsConsumed)
         {
             return;
         }
 
         Receiving = true;
         StartCoroutine(ReceiverRoutine(who));
-
     }
 
     IEnumerator ReceiverRoutine(Player who)
     {
-        while(StageController.instance.GetCoins() > 0)
+        while (StageController.instance.GetCoins() >= coinsConsumed)
         {
-            StageController.instance.RemoveCoins(1);
+            StageController.instance.RemoveCoins(coinsConsumed);
             SoundManager.Instance.PlaySound("pickupCoin", 0.9f);
             GameObject clone = ObjectPoolManager.Instance.SpawnFromPool("spentCoin");
             clone.gameObject.SetActive(true);

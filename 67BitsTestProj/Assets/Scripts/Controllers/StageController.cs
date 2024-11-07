@@ -13,6 +13,7 @@ public class StageController : MonoBehaviour
     [SerializeField] private Player myPlayer;
     [SerializeField] private GameObject LevelUpMessage;
     [SerializeField] private GameObject MaxLimitText;
+    [SerializeField] private GameObject BuildCompleteMessage;
 
     public static StageController instance;
     public static Action<int> OnStackNumberChanged;
@@ -34,8 +35,8 @@ public class StageController : MonoBehaviour
 
     private void OnStackChanged(int quant)
     {
-        UpdateUI();
         CurrentStack = quant;
+        UpdateUI();
     }
 
     void Start()
@@ -49,6 +50,8 @@ public class StageController : MonoBehaviour
     private int GetCurrentMaxStacks() => MyLevel * stacksPerLevel;
     public bool CanAddStack() => CurrentStack < GetCurrentMaxStacks();
     public void ShowMaxStackMessage() => MaxLimitText.gameObject.SetActive(true);
+
+    public void ShowBuildCompleteMessage() => BuildCompleteMessage.gameObject.SetActive(true);
 
     public void AddExp(int exp)
     {
