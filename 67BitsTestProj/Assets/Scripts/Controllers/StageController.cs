@@ -12,9 +12,10 @@ public class StageController : MonoBehaviour
     public int expPerLevel;
     public Player myPlayer;
     public static StageController instance;
+    public GameObject LevelUpMessage;
 
     public static Action<int> OnStackNumberChanged;
-    public TextMeshProUGUI MaxLimitText;
+    public GameObject MaxLimitText;
     private int CurrentStack;
 
     public int currentExp;
@@ -69,6 +70,7 @@ public class StageController : MonoBehaviour
             SoundManager.Instance.PlaySound("levelUp");
             MyLevel++;
             myPlayer.LevelUpAnimation();
+            LevelUpMessage.SetActive(true);
             currentExp = 0;
             SavePlayerData(); // Salva nível e experiência atualizados
         }
