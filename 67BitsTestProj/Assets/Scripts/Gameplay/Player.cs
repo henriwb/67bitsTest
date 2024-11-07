@@ -65,6 +65,7 @@ public class Player : MonoBehaviour
         else
         {
             StageController.instance.ShowMaxStackMessage();
+            who.gameObject.SetActive(false);
         }
     }
 
