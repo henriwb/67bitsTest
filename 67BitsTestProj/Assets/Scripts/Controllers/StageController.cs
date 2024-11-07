@@ -1,25 +1,21 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 
 public class StageController : MonoBehaviour
 {
-    public int MyLevel = 1;
-    public int stacksPerLevel;
-    public StackCounterUI stackCounter;
-    public int expPerLevel;
-    public Player myPlayer;
+    [SerializeField] private int MyLevel = 1;
+    [SerializeField] private int stacksPerLevel;
+    [SerializeField] private int expPerLevel;
+    [SerializeField] private int currentExp;
+    [SerializeField] private int CurrentStack;
+
+    [SerializeField] private StageUI UIControler;
+    [SerializeField] private Player myPlayer;
+    [SerializeField] private GameObject LevelUpMessage;
+    [SerializeField] private GameObject MaxLimitText;
+
     public static StageController instance;
-    public GameObject LevelUpMessage;
-
     public static Action<int> OnStackNumberChanged;
-    public GameObject MaxLimitText;
-    private int CurrentStack;
-
-    public int currentExp;
-
     public const string coinsSavePath = "CoinsSavePath";
     private const string levelSavePath = "LevelSavePath";
     private const string expSavePath = "ExpSavePath";
@@ -38,48 +34,52 @@ public class StageController : MonoBehaviour
 
     private void OnStackChanged(int quant)
     {
-        stackCounter.UpdateUI(GetCurrentMaxStacks(), quant, MyLevel, (expPerLevel * MyLevel) - currentExp, expPerLevel * MyLevel);
+        UpdateUI();
         CurrentStack = quant;
     }
 
     void Start()
     {
-        stackCounter.UpdateUI(GetCurrentMaxStacks(), 0, MyLevel, (expPerLevel * MyLevel) - currentExp, expPerLevel * MyLevel);
+        UpdateUI();
         OnStackNumberChanged += OnStackChanged;
-        stackCounter.UpdateCoins(GetCoins());
+        UIControler.UpdateCoins(GetCoins());
     }
 
-    private void OnDestroy()
-    {
-        OnStackNumberChanged -= OnStackChanged;
-    }
-
+    private void OnDestroy() => OnStackNumberChanged -= OnStackChanged;
     private int GetCurrentMaxStacks() => MyLevel * stacksPerLevel;
     public bool CanAddStack() => CurrentStack < GetCurrentMaxStacks();
-
-    public void ShowMaxStackMessage()
-    {
-        MaxLimitText.gameObject.SetActive(true);
-    }
+    public void ShowMaxStackMessage() => MaxLimitText.gameObject.SetActive(true);
 
     public void AddExp(int exp)
     {
         currentExp += exp;
-        if (currentExp >= (expPerLevel * MyLevel))
+        if (currentExp > (expPerLevel * MyLevel))
         {
-            SoundManager.Instance.PlaySound("levelUp");
-            MyLevel++;
-            myPlayer.LevelUpAnimation();
-            LevelUpMessage.SetActive(true);
-            currentExp = 0;
-            SavePlayerData(); // Salva nível e experiência atualizados
+            
+            LevelUpAction();
+            return;
         }
         else
         {
             SaveExp(); // Salva somente a experiência se o nível não foi alterado
         }
 
-        stackCounter.UpdateUI(GetCurrentMaxStacks(), CurrentStack, MyLevel, (expPerLevel * MyLevel) - currentExp, expPerLevel * MyLevel);
+        UpdateUI();
+    }
+
+    private void UpdateUI() => UIControler.UpdateUI(GetCurrentMaxStacks(), CurrentStack, MyLevel, (expPerLevel * MyLevel) - currentExp, expPerLevel * MyLevel);
+
+    private void LevelUpAction()
+    {
+        SoundManager.Instance.PlaySound("levelUp");
+        MyLevel++;
+        myPlayer.LevelUpAnimation();
+        LevelUpMessage.SetActive(true);
+        currentExp = 0;
+        UIControler.ResetExpBar();
+        UpdateUI();
+        SavePlayerData(); // Salva nível e experiência atualizados
+
     }
 
     private void SavePlayerData()
@@ -88,10 +88,7 @@ public class StageController : MonoBehaviour
         PlayerPrefs.SetInt(expSavePath, currentExp);
     }
 
-    private void SaveExp()
-    {
-        PlayerPrefs.SetInt(expSavePath, currentExp);
-    }
+    private void SaveExp() => PlayerPrefs.SetInt(expSavePath, currentExp);
 
     public void AddCoins()
     {
@@ -99,8 +96,10 @@ public class StageController : MonoBehaviour
         GameObject clone = ObjectPoolManager.Instance.SpawnFromPool("gainCoin");
         clone.gameObject.SetActive(true);
         quantCurrent++;
+        GameObject cloneCoin = ObjectPoolManager.Instance.SpawnFromPool("addCoin");
+        cloneCoin.gameObject.SetActive(true);
         SaveCoins(quantCurrent);
-        stackCounter.UpdateCoins(quantCurrent);
+        UIControler.UpdateCoins(quantCurrent);
     }
 
     public void RemoveCoins(int quant)
@@ -110,16 +109,11 @@ public class StageController : MonoBehaviour
         if (quantCurrent < 0)
             quantCurrent = 0;
         SaveCoins(quantCurrent);
-        stackCounter.UpdateCoins(quantCurrent);
+        UIControler.UpdateCoins(quantCurrent);
     }
 
-    public int GetCoins()
-    {
-        return PlayerPrefs.GetInt(coinsSavePath, 0);
-    }
+    public int GetCoins() => PlayerPrefs.GetInt(coinsSavePath, 0);
 
-    private void SaveCoins(int current)
-    {
-        PlayerPrefs.SetInt(coinsSavePath, current);
-    }
+    private void SaveCoins(int current) => PlayerPrefs.SetInt(coinsSavePath, current);
+    
 }

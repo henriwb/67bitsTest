@@ -91,7 +91,8 @@ public class StackObjects : MonoBehaviour
         objects.Add(newObject);
         objectVelocities.Add(Vector3.zero); // Adiciona a velocidade para o novo objeto
         newObject.transform.localPosition += new Vector3(0, (objects.Count - 1) * heightStack, 0);
-
+        GameObject clone = ObjectPoolManager.Instance.SpawnFromPool("addStack");
+        clone.gameObject.SetActive(true);
         int currentStack = GetCurrentStack();
         StageController.OnStackNumberChanged(currentStack);
     }
